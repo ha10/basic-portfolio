@@ -1,0 +1,32 @@
+.portfolio {
+  width: 650px;
+  height: 850px;
+  clear: both;
+  background: white;
+  padding: 30px;
+  float: left;
+  margin-bottom: 30px;
+  border: solid 1px #dddddd;
+  overflow: visible;
+}
+
+.project-01,
+.project-02,
+.project-03,
+.project-04 {
+  float: left;
+  margin: 5px;
+  position: relative;
+}
+
+.project-names {
+  width: 100%;
+  position: absolute;
+  top: 130px;
+  text-align: center;
+  background: #4aaaa5;
+  height: 40px;
+  padding: 10px;
+  font-size: 1.4em;
+  color: white;
+}
