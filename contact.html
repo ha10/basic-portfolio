@@ -15,9 +15,7 @@
         <span id="name"><h1>Hovsep Agop</h1></span>
         <ul id="navigation">
           <li class="nav-item"><a href="index.html">About</a></li>
-          <li class="nav-item">|</li>
           <li class="nav-item active-nav"><a href="portfolio.html">Portfolio</a></li>
-          <li class="nav-item">|</li>
           <li class="nav-item active-nav">Contact</li>
         </ul>
       </nav>
@@ -25,23 +23,23 @@
     <div class="container">
       <div class="contact">
         <h2>Contact</h2>
-        <hr />
-        <form class="contact-form" action="index.html" method="post">
+        <hr class="big-hr">
+        <form class="contact-form" method="post" action="mailto:hka245@nyu.edu" id="the-form">
           <fieldset>
             <label for="Name">Name: </label>
 
             <!-- display inline -->
-            <input type="text" name="Name" placeholder="John Smith" value="">
+            <input type="text" name="Name" placeholder="John Smith" minlength="3" required>
             <br />
             <label for="Email">Email: </label>
             <br />
-            <input type="text" name="Email" placeholder="example@gmail.com" value="">
+            <input type="email" name="Email" placeholder="example@gmail.com" required>
             <br />
             <label for="message">Message</label>
             <br />
-            <textarea name="message" rows="12" cols="80" placeholder="Your message here"></textarea>
+            <textarea name="message" rows="12" cols="65" placeholder="Your message here" required></textarea>
             <br />
-            <button type="button" name="submit">Submit</button>
+            <button type="submit" name="submit" class="the-button" onclick="toggle_visibility('#the-form');">Submit</button>
           </fieldset>
         </form>
       </div>
