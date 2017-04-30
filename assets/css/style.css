@@ -84,7 +84,7 @@ li:nth-child(3):after {
   display: none;
 }
 
-#name {
+#nav-name {
   float: left;
   height: 90px;
   background: #4aaaa5;
@@ -130,6 +130,10 @@ li:nth-child(3):after {
   font-weight: 700;
   text-decoration: none;
   color: #4aaaa5;
+}
+
+.nav-item a:hover {
+  opacity: .6;
 }
 
 .connect {

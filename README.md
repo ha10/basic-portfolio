@@ -25,7 +25,7 @@ In this assignment, you'll build a professional portfolio site using HTML/CSS. T
    <!-- * Inside the assets directory, make two additional folders: `css` and `images`. -->
      <!-- * In the `css` folder, make a file called `style.css`. -->
      <!-- * In the `css` folder, make a file called `reset.css`, and include the code found from the Meyerweb reset located [here](http://meyerweb.com/eric/tools/css/reset/reset.css). -->
-     * In the `images` folder, save the images you plan on using (like your profile image, the placeholder images for the portfolio, and the social icon images).
+     <!-- * In the `images` folder, save the images you plan on using (like your profile image, the placeholder images for the portfolio, and the social icon images). -->
 
 <!-- 4. Push the above changes to GitHub. -->
 
@@ -47,7 +47,7 @@ In this assignment, you'll build a professional portfolio site using HTML/CSS. T
    <!-- * If something is a list, you use an unordered or ordered list tag. -->
    <!-- * So on and so forth. -->
 
-7. The content for the `index.html` should be unique to **you**.
+<!-- 7. The content for the `index.html` should be unique to **you**. -->
 
    <!-- * Write a paragraph or two about yourself. Make it fun, show your personality! -->
    <!-- * The main logo where it says "Your Name" should say your name. This may make the logo section smaller or wider depending on how long your name is—that is fine and expected. -->
